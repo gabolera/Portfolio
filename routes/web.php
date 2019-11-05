@@ -18,3 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/install', 'InstallerController@index');
+Route::post('/install/make', 'InstallerController@store')->name('install.process');

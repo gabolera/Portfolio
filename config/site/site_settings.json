@@ -1,0 +1,32 @@
+{
+    "installed": 0,
+    "site_name": "Gabriel Andreazza",
+    "site_description": "",
+    "site_tags": "",
+    "site_logo": "",
+    "default_language": "pt_BR",
+    "favicon": "urlfavicon.ico",
+    "address": {
+        "street": "RUA NÃO DEFINIDA",
+        "number": "SEM NUMERO",
+        "neighborhood": "SEM BAIRRO",
+        "state": "SEM ESTADO",
+        "country": "SEM PAIS",
+        "city": "SEM CIDADE",
+        "zip-code": "SEM CODIGO POSTAL",
+        "complement": "SEM COMPLEMENTO"
+    },
+    "emails": [
+        {
+            "address": "contato@andreazza.dev",
+            "type": "Contato"
+        }
+    ],
+    "phones": [
+        {
+            "number": "",
+            "type": "Contato",
+            "whatsapp": 0
+        }
+    ]
+}

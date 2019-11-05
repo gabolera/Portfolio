@@ -18,6 +18,17 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
+    <link href="{{asset('tabler/css/dashboard.css')}}" rel="stylesheet" />
+    <script src="{{asset('tabler/js/dashboard.js')}}"></script>
+    <!-- c3.js Charts Plugin -->
+    <link href="{{asset('tabler/plugins/charts-c3/plugin.css')}}" rel="stylesheet" />
+    <script src="{{asset('tabler/plugins/charts-c3/plugin.js')}}"></script>
+    <!-- Google Maps Plugin -->
+    <link href="{{asset('tabler/plugins/maps-google/plugin.css')}}" rel="stylesheet" />
+    <script src="{{asset('tabler/plugins/maps-google/plugin.js')}}"></script>
+    <!-- Input Mask Plugin -->
+    <script src="{{asset('tabler/plugins/input-mask/plugin.js')}}"></script>
 </head>
 <body>
     <div id="app">
