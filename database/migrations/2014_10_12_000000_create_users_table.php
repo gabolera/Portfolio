@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->integer('permisson')->default(0);
+            $table->integer('permission')->default(0);
             $table->string('avatar')->nullable();
             $table->boolean('banned')->default(0);
             $table->string('banned_razon')->nullable();
@@ -32,12 +32,12 @@ class CreateUsersTable extends Migration
                 'name' => 'Admin',
                 'email' => 'admin@dev.com',
                 'password' => Hash::make('admin123'),
-                'permisson' => 3
+                'permission' => 3
             ],[
                 'name' => 'User',
                 'email' => 'user@dev.com',
                 'password' => Hash::make('user123'),
-                'permisson' => 0
+                'permission' => 0
             ]
         ]);
     }
