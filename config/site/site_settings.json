@@ -28,5 +28,12 @@
             "type": "Contato",
             "whatsapp": 0
         }
-    ]
+    ],
+    "active_template": {
+        "title": "Default",
+        "folder_name": "dshy-template",
+        "image_preview": "preview.png",
+        "version": "v1.1.5",
+        "author": "Gabriel Andreazza"
+    }
 }

@@ -29,6 +29,7 @@
     <script src="{{asset('tabler/plugins/maps-google/plugin.js')}}"></script>
     <!-- Input Mask Plugin -->
     <script src="{{asset('tabler/plugins/input-mask/plugin.js')}}"></script>
+    <script src="{{asset('js/jquery.3.1.1.min.js')}}"></script>
 </head>
 <body>
         <main class="py-4">
